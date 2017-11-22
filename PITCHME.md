@@ -24,6 +24,14 @@
 +++
 
 ## Puntos que ve un arquitecto
+* Escalabilidad
+* Seguridad
+* Disponibilidad
+* Mantenibilidad
+* Desempeño
+* Confiabilidad
+* Usabilidad
+* Estresabilidad
 
 ---
 
@@ -66,3 +74,21 @@
 ![AAlvz](assets/chartAalvz.png)
 
 ---
+
+## Estilos/Patrones/Tecnologías
+
++++
+
+## Estilos
+
++++
+
+## Patrones
+
++++
+
+## Tecnologías
+
+---
+
+
