@@ -63,6 +63,6 @@
 
 +++
 
-![AAlvz](assets/chart_Aalvz.png)
+![AAlvz](assets/chartAalvz.png)
 
 ---
