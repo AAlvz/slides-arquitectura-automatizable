@@ -41,3 +41,20 @@
 
 
 +++
+
+## Tecnologías
+
++++
+
+## Planeación
+![yoda](yoda.jpg)
+
++++
+
+## Diseño
+
++++
+
+## Dominio
+
+---
