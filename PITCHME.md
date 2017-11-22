@@ -57,4 +57,12 @@
 
 ## Dominio
 
++++
+
+![AgusRumayor](assets/chart_AgusRumayor.png)
+
++++
+
+![AAlvz](assets/chart_Aalvz.png)
+
 ---
