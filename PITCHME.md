@@ -47,7 +47,7 @@
 * Lenguajes? 2? 4? 8? 12?
 * Frameworks?
 * APIs
-* ![war](assets/War_hammer.jpg)
+![war](assets/War_hammer.jpg)
 
 +++
 
