@@ -38,20 +38,28 @@
 +++
 
 ## Metodologías
+#### SCRUM, Kanban-lean, RUP, PSP, XP, FDD.......
 
 
 +++
 
 ## Tecnologías
+* Lenguajes? 2? 4? 8? 12?
+* Frameworks?
+* APIs
 
 +++
 
 ## Planeación
-![yoda](yoda.jpg)
+![yoda](assets/yoda.jpg)
 
 +++
 
 ## Diseño
+* Diagramas
+* UML
+* CCCC (Contexto/Contenedores/Componentes/Clases)
+* AWS/Google
 
 +++
 
@@ -67,7 +75,8 @@
 
 ---
 
-## Estilos/Patrones/Tecnologías
+## Estilos ----> Patrones
+## Patrones -----> Tecnologías
 
 +++
 
