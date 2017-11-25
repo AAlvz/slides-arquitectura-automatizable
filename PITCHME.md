@@ -157,6 +157,78 @@ Post it: ¨No Tocar¨
 
 ---
 
+"Automatizar no da valor directo a mis clientes o a mi empresa"
+
+---
+
+Falso
+
+Note:
+Hacer Pruebas, automatizacion, nos da velocidad.
+
+Si se crea, prueba y entrega mas rapido, se aprende y se mejora mucho mas rapido.
+
+---
+
+Tiempos de Deploy - 200x
+Tiempos de Entrega - 2555x
+
+---
+
+Equivale a Un gran valor de Negocio que afecta directamente a los Clientes.
+
+---
+
+No es necesario sacrificar confiabilidad.
+
+Tasa de cambios exitosos - 3x
+Recuperacion de errores - 24x
+
+---
+
+![](https://www.r1soft.com/hubfs/SBM_Images/Logos/PhoenixNAP-Global-Logo.png?t=1508856451440)
+
+"Nos dimos cuenta de que entre mas servicios levantabamos, mas procesos manuales entraban"
+
+---
+
+"Hicimos este año mas de 800,000 cambios. Ahorramos, de manera conservadora, 1,000,000 USD"
+
+Cambios Rapidos, Continuos y Confiables.
+
+Note:
+Teniamos que migrar un sistema Legacy. Normalmente toma tres o cuatro meses y tres o cuatro ingenieros.
+Lo hicimos en 18 horas. Ahorrando por lo menos 100 000 USD
+
+Sin contar a los developers que estan esperando dos meses a que les liberen algo, o la semana de deploy que debe hacer
+
+---
+
+![](http://logok.org/wp-content/uploads/2014/05/Walmart-Logo-slogan.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Getty_Images_Logo.svg/2000px-Getty_Images_Logo.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2000px-Netflix_2015_logo.svg.png)
+![](https://www.festisite.com/static/partylogo/img/logos/google.png)
+
+---
+
+Todo esta en las metricas:
+
+ - Deploys
+ - Descargas
+ - Uptime
+ - Cambios
+
+---
+
+Equivale a:
+
+ - Mejores productos
+ - Mejor Panorama.
+
+# COMPETITIVIDAD. 
+
+---
+
 # Precauciones de Automatizacion
 
 "Si tienes un desastre. Vas a tener un desastre automatizado."
@@ -192,6 +264,20 @@ Eso era suficiente para haber comprado Toyota. y Nissan. Juntos. (Sin obtener la
 ---
 
 Consistencia de la practica tiene que ir antes de la Automatizacon
+
+---
+
+## Por donde comienzo a automatizar? 
+
+---
+
+1. Seguridad? ...
+
+1. Disponibilidad!
+
+1. Desempeño!!
+
+1. Usabilidad
 
 ---
 
