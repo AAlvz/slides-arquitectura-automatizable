@@ -23,15 +23,8 @@
 
 +++
 
-## Puntos que ve un arquitecto
-* Escalabilidad
-* Seguridad
-* Disponibilidad
-* Mantenibilidad
-* Desempeño
-* Confiabilidad
-* Usabilidad
-* Estresabilidad
+## Puntos que ve un arquitecto (QA)
+![QAs](assets/QAs.png)
 
 ---
 
