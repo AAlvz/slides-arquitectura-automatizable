@@ -9,7 +9,7 @@
 ---
 
 ## ¿Soy arquitecto de software?
-
+![dilbert](assets/dilbert_sw_arq.gif)
 
 +++
 
