@@ -18,12 +18,11 @@
 
 +++
 
-### ¿Cuándo y en qué puntos se hace arquitectura?
 ![cloud](assets/arq_cloud.png)
 
 +++
 
-## Puntos que ve un arquitecto (QA)
+#### Puntos que ve un arquitecto (QA)
 ![QAs](assets/QAs.png)
 
 ---
