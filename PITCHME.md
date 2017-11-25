@@ -96,7 +96,102 @@
 
 ## Por qué Automatizar la arquitectura?
 
+---
+
+Esta es una Arquitectura. TW. Explicar.
+
+---
+
+Es necesario montarla. Obviamente considerando las caracteristicas que definen a una Organizacion de TI de Alto Rendimiento.
+
+Cuales son?
+
+---
+
+# Caracteristicas
+
+- Nivel alto de servicio. Servicio de Calidad
+- Disponiblidad
+  - Medibles en : Tiempo Promedio de Reparacion. y Tiempo Promedio Antes de Fallos
+- Confiabilidad
+  - Medible en: Tasa de cambios exitosos
+- Invertir tiempo en etapas tempranas del ciclo de vida del dpto de TI.
+  - Medible en: Cantidad de recursos y personas enfocados actividades de Pre-Produccion, administracion de releases, testing...
+- Integrar Operaciones y seguridad
+  - Medible en: Cantidad de Deploys que cumplen con requerimientos de seguirdad y que son aprovados.
+  - resulta en Menos trabajo despues de Deploy.
+- Cantidad baja de Trabajo no Planeado (Apagar incendios)
+  - Organizaciones de alto desempeño >> 5% de trabajo no planeado
+  - Organizaciones tipicas >> 35% - 45% trabajo no planeado.
+
+3 principales:
+  - Cultura de administracion de cambios.
+    - "Este cambio. Es necesario?"
+    - "La unica cantidad de cambios aceptables sin autorizacion es ZERO".
+  - Cultura de Causalidad
+    - 80% de fallos son debido a cambios.
+    - 80% del MTTR de esos fallos es tratando de encontrar qué cambió
+    - Tener una buena administracion de cambios, ayuda a encontrar una posible solucion al problema mas del 80% de las veces, acertando el  90% de las veces a la primera.
+    - Debemos mantener eso de guiarse por el sentimiento y la intuición? "...Vamos a ver si esto funciona".... "Y si reinicias este server?" .. Solo resulta en resoluciones mas largas
+     y tasas de reparacion mas bajas. 
+  - Cultura de Mejora continua.
+    - Encontrar problemas antes de que sean problemas
+    - Controles para prevenir
+
+---
+
+80% del downtime y fallos (obviamente no planeados) son causados por actividades de nosotros mismos:
+Errores humanos, problemas dentro del proceso: Practicas pobres de administrcion de cambios.
+20% es causado por fallas de tecnologia y desastres.
+
+---
+
+Que significa?
+
+![Kill all the humans}(https://memegenerator.net/img/instances/500x/50445790/kill-all-humans-for-a-better-tomorrow.jpg)
+
+"Charles Darwin. Debemos estar atentos al cambio." Siempre hay modificaciones, parches, etc.  
+
+
 Post it: ¨No Tocar¨
+
+---
+
+# Precauciones de Automatizacion
+
+"Si tienes un desastre. Vas a tener un desastre automatizado."
+
+Si no pueden ejecutar el proceso de manera manual y saber cada detalle de este proceso, no intenten automatizarlo.
+Solo lograrian automatizar confusion.
+
+
+Note:
+
+Esto es algo muy comun... leo.
+
+---
+
+General Motors Case.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Logo_of_General_Motors.svg/1200px-Logo_of_General_Motors.svg.png)
+
+- Automatizar Manufactura. 
+- Mejor Calidad. Mejores Costos.
+
+---
+
+- $44 B USD = Fabrica del Futuro
+![](http://www.carlogos.org/logo/Toyota-logo-1989-2560x1440.png)
+![](http://www.carlogos.org/logo/Nissan-symbol-2012-1920x1080.png)
+
+Note:
+Querian automatizar la manufactura de autos en 1980.
+GM intenta resolver sus problemas de calidad con automatizacion.
+Gastaron 44 Billones de dolares para construir la "fabrica del futuro".
+Eso era suficiente para haber comprado Toyota. y Nissan. Juntos. (Sin obtener la calidad que buscaban. Ni los costos que buscaban).
+
+---
+
+Consistencia de la practica tiene que ir antes de la Automatizacon
 
 ---
 
