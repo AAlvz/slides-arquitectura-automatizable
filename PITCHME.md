@@ -82,14 +82,17 @@
 +++
 
 ## Estilos
+### Gótico | Vintage | N-Capas
 
 +++
 
 ## Patrones
+### Arco medio punto | Otoño | MVC
 
 +++
 
 ## Tecnologías
+### Arcillas | Seda | Django
 
 ---
 
