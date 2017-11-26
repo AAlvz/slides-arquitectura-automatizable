@@ -638,8 +638,121 @@ Aquel que toma mas tiempo de construir y de reparar.
 
 ---
 
+# Identificar
 
+ - Sistemas operativos e infraestructura
+ - Aplicaciones
+ - Reglas de Negocio
+ - Datos
 
+---
+
+# Paso 3. Crear lista de componentes reutilizables
+
+Notes:
+Nginx?
+Solaris?
+Databases?
+Dependencias
+
+---
+
+# Paso 4. Crear un build de "Presionar un botón"
+
+---
+
+# Ojo.
+
+- Ambiente isolado de Produccion.
+- Asegurate que se puede crear desde cero. Si es posible, sin intervención humana.
+- Tener nuestra Libreria de Configuraciones accesible por el equipo, documentada y actualizada. 
+
+---
+
+# De Staging a Produccion.
+
+1. Verificar las herramientas de build.
+2. Software intermedio.
+3. Documentacion a la Libreria de Configuraciones
+3.5. QA.
+4. LOS DEVS NO SON PARTE DEL PROCESO DE BUILDS
+5. Aprovar y calendarizar deploy.
+
+Notes:
+Por seguridad y para asegurar que el quipo de provisionamiento puede mantener todo
+
+---
+
+Es facil automatizar?
+
+---
+
+Algunas herramientas y tips.
+
+---
+
+Testing:
+
+  - Selenium
+
+---
+
+CIs:
+  - Jenkins
+  - Buildbot
+  - TeamCity
+  - Travis
+  - CircleCI
+
+---
+
+Virtualizacion
+
+ - VmWare
+ - Vagrant
+
+---
+
+Administradores de Configuracion
+
+ - Puppet
+ - Chef
+ - Ansible
+
+---
+
+Infraestructura
+
+  - Terraform
+
+---
+
+Contenerizacion
+
+  - LXC
+  - Docker
+
+---
+
+Seguridad
+
+ - Vault
+ - Pure linux
+
+---
+
+Monitoreo
+
+  - Monit
+  - ELK
+  - Munin
+  - Nagios
+
+---
+
+TinkerWare
+
+---
 
 # Recap
 
