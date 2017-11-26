@@ -102,46 +102,251 @@ Esta es una Arquitectura. TW. Explicar.
 
 ---
 
-Es necesario montarla. Obviamente considerando las caracteristicas que definen a una Organizacion de TI de Alto Rendimiento.
+A montarla!
+
+---
+
+El arquitecto like:
+
+![](https://memegenerator.net/img/instances/500x/72565762/thank-you-goodbyeand-good-luck.jpg)
+
+Notes:
+Y el arquitecto. Termina su trabajo y les desea suerte a los desarrolladores.
+
+---
+
+Que hay que hacer?
+
+Notes:
+Instalar todo. Y ya?
+Donde? Qué servidor se va a utilizar?
+Porqué nube? Porqué no?
+Y lo importante? Seguidad? Desempeño?
+
+---
+
+Alguien dijo desempeño?
+
+Seguridad? ...
+
+Confiable? 
+
+---
+
+# Atributos de Calidad
+
+![](https://imgflip.com/s/meme/Am-I-The-Only-One-Around-Here.jpg)
+
+Notes:
+Acaso Soy el unico aquí al que le importan los Atributos de calidad?
+
+---
+
+Caracteristicas de una Organizacion de TI de Alto Rendimiento.
 
 Cuales son?
 
 ---
 
-# Caracteristicas
+![](https://raw.githubusercontent.com/AAlvz/slides-arquitectura-automatizable/master/assets/QAs.png)
 
-- Nivel alto de servicio. Servicio de Calidad
-- Disponiblidad
-  - Medibles en : Tiempo Promedio de Reparacion. y Tiempo Promedio Antes de Fallos
-- Confiabilidad
+---
+
+# Org de Alto rendimiento
+
+  - Nivel alto de servicio. Servicio de Calidad
+  - Disponiblidad
+  - Invertir tiempo en etapas tempranas del ciclo de vida del dpto de TI.
+  - Integrar Operaciones y seguridad
+
+---
+
+# !!! 
+
+POCO Trabajo no Planeado / Apagar incendios
+
+---
+
+# Organizaciones de alto desempeño
+
+  5% de trabajo no planeado
+
+---
+
+#  Organizaciones tipicas
+
+  35% - 45% trabajo no planeado.
+
+Notes:
+Casi el 50%!!
+
+---
+
+## Porque automatizar??
+
+No podemos ser una organizacion con alto desempeño si no mejoramos.
+
+---
+
+No se puede mejorar lo que no se puede medir.
+
+---
+
+![](https://media.aws.iaaf.org/media/LargeL/2b8b05c8-fa87-4935-9205-a9da3ce7863c.png?v=1926410597)
+
+Notes:
+Somos como deportistas de Alto rendimiento.
+No salen a correr/nadar/jugar solo porque les gusta. Bueno si.
+Pero mejoran constantemente. No salen y corren y montan toda la infraestrucutra y dicen "Ay que bonito, cuando se rompa lo arreglo"
+
+---
+
+No se puede medir algo que no se puede controlar.
+
+---
+
+Ejecutar un script, una prueba, algo repetible toma una cantidad de tiempo medible.
+
+---
+
+Pero si algo se rompe y queremos descubrir qué fue lo que sucedió.
+
+Se puede predecir con exactitud el tiempo que toma reparar?
+
+Se sabe con certeza qué falló?
+
+---
+
+![](http://www.bbc.co.uk/staticarchive/c21c9192413719396c6a491a7b9229315bde6fd4.jpg)
+
+Notes:
+Debemos cuidar nuestras metricas como campeones y siempre romper nuestra propia marca.
+
+---
+
+# Metricas de Caracteristicas
+
+Como medir? 
+
+Notes:
+Entonces, De las metricas que ya vimos. Como las medimos? Como las mejoramos? 
+
+---
+## DISPONIBILIDAD
+  - Medibles en:
+    - Tiempo Promedio de Reparacion.
+    - Tiempo Promedio Antes de Fallos
+
+Notes:
+Explicar ambos
+
+---
+## Confiabilidad
   - Medible en: Tasa de cambios exitosos
-- Invertir tiempo en etapas tempranas del ciclo de vida del dpto de TI.
+
+---
+
+![](http://www.wellandtrulystuck.co.uk/wp-content/uploads/imported/Funny-Warning-Sign-Danger-Do-Not-Touch-Hurt-While-Dying-Sticker-Self-Adhesive-191776414570.jpg)
+
+Notes:
+Cuantos Servidores tienen con letreros como estos?
+
+---
+
+## Invertir tiempo en etapas tempranas del ciclo de vida del dpto de TI.
   - Medible en: Cantidad de recursos y personas enfocados actividades de Pre-Produccion, administracion de releases, testing...
-- Integrar Operaciones y seguridad
+
+Notes:
+Si pasamos mucho tiempo enfocados a arreglar errores en vez de a buscar mejoras, hay algo que estamos haciendo mal..
+
+---
+
+## Integrar Operaciones y seguridad
   - Medible en: Cantidad de Deploys que cumplen con requerimientos de seguirdad y que son aprovados.
   - resulta en Menos trabajo despues de Deploy.
-- Cantidad baja de Trabajo no Planeado (Apagar incendios)
+
+---
+
+## Cantidad baja de Trabajo no Planeado (Apagar incendios)
   - Organizaciones de alto desempeño >> 5% de trabajo no planeado
   - Organizaciones tipicas >> 35% - 45% trabajo no planeado.
 
-3 principales:
-  - Cultura de administracion de cambios.
+---
+
+3 Caracteristicas comunes en Organizaciones de alto desempeño:
+
+Notes: Al final todo se puede resumir en 3 caracteristicas principales para tener alto desempeño.
+
+---
+
+  1. Cultura de administracion de cambios.
     - "Este cambio. Es necesario?"
     - "La unica cantidad de cambios aceptables sin autorizacion es ZERO".
-  - Cultura de Causalidad
+
+---
+
+2. Cultura de Causalidad
+
+Notes:
+Es decir. Que sucede cuando hay cambios
+
+---
+
+2. Cultura de Causalidad
     - 80% de fallos son debido a cambios.
-    - 80% del MTTR de esos fallos es tratando de encontrar qué cambió
-    - Tener una buena administracion de cambios, ayuda a encontrar una posible solucion al problema mas del 80% de las veces, acertando el  90% de las veces a la primera.
-    - Debemos mantener eso de guiarse por el sentimiento y la intuición? "...Vamos a ver si esto funciona".... "Y si reinicias este server?" .. Solo resulta en resoluciones mas largas
-     y tasas de reparacion mas bajas. 
-  - Cultura de Mejora continua.
+
+Notes:
+Por errores humanos, problemas en el proceso.
+Y el 20% restante es debido a problemas de tecnologia y desastres
+
+---
+2. Cultura de Causalidad
+    - 80% de fallos son debido a cambios.
+    - 80% del Tiempo de Reparación de esos fallos se gasta tratando de encontrar qué cambió.
+
+---
+2. Cultura de Causalidad
+
+Tener una buena administracion de cambios, ayuda a encontrar una posible solucion al problema mas del 80% de las veces, acertando el  90% de las veces a la primera.
+
+![](![](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/IC-change-managment.png)
+
+---
+
+ "...Pues vamos a ver si esto funciona"
+
+---
+
+  "... Y..... si... reinicias el server?"
+
+---
+
+Gut Feeling
+![](http://www.bennettgraphics.com/bennettgraphicswordpress/wp-content/uploads/2016/03/a-gut-feeling.jpg)
+
+... Para alargar el tiempo de solución y tener tasas mas bajas de reparación rápida.
+
+Notes:
+Lamento ser yo el que destruya sus sueños y esperanzas. Pero. "Seguir los instintos" no aplica aqui. No lo hagan
+
+---
+
+  3. Cultura de Mejora continua.
     - Encontrar problemas antes de que sean problemas
     - Controles para prevenir
 
 ---
 
-80% del downtime y fallos (obviamente no planeados) son causados por actividades de nosotros mismos:
-Errores humanos, problemas dentro del proceso: Practicas pobres de administrcion de cambios.
+Entonces: Fallas
+
+80% del downtime y fallos son causados por actividades de nosotros mismos:
+
+  - Errores humanos,
+  - Problemas dentro del proceso
+  - Practicas pobres de administrcion de cambios.
+
+---
+
 20% es causado por fallas de tecnologia y desastres.
 
 ---
@@ -150,14 +355,43 @@ Que significa?
 
 ![Kill all the humans}(https://memegenerator.net/img/instances/500x/50445790/kill-all-humans-for-a-better-tomorrow.jpg)
 
-"Charles Darwin. Debemos estar atentos al cambio." Siempre hay modificaciones, parches, etc.  
+---
 
+“It is not the strongest of the species that survive, nor the most intelligent, but the one most responsive to change.”
 
+   Charles Darwin.
+
+Notes;
+Siempre hay modificaciones, parches, etc.  
+
+---
+
+Sonríe a la vida!
+
+![](http://www.quizony.com/are-you-ready-for-changes-in-your-life/imageForSharing.png)
+
+Notes:
 Post it: ¨No Tocar¨
 
 ---
 
+Motívate!
+
+![](http://forums.techsoup.org/cs/cfs-file.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-00-01-03/man-jumping-from-one-cliff-to-another.jpg)
+
+---
+
+Bendiceme universo!!
+
+![](https://acontentedfoody.files.wordpress.com/2011/06/sign-realitycheck.jpg)
+
+---
+
 "Automatizar no da valor directo a mis clientes o a mi empresa"
+
+Notes:
+Boom. Golpe directo de realidad.
+Quien esta de acuerdo con esta frase? 
 
 ---
 
@@ -165,6 +399,7 @@ Falso
 
 Note:
 Hacer Pruebas, automatizacion, nos da velocidad.
+---
 
 Si se crea, prueba y entrega mas rapido, se aprende y se mejora mucho mas rapido.
 
@@ -196,11 +431,49 @@ Recuperacion de errores - 24x
 
 Cambios Rapidos, Continuos y Confiables.
 
-Note:
-Teniamos que migrar un sistema Legacy. Normalmente toma tres o cuatro meses y tres o cuatro ingenieros.
-Lo hicimos en 18 horas. Ahorrando por lo menos 100 000 USD
+---
 
+Sistemas Legacy
+
+![](https://erpblog.iqms.com/wp-content/uploads/2015/07/Legacy-Systems.png)
+
+4 meses.
+4 Ingenieros.
+1 Problema
+
+---
+
+" Querido José, 
+
+Te escribo desde el Centro de datos que soporta el middleware de pagos. Creo que no necesito recordarte que no hemos apagado esta cosa en mas de cuatro años. Dentro de 10 minutos vamos a hacer un ciclo de mantenimiento del sistema de electricidad. Nunguno de nuestro equipo, yo incluida, sabe si vamos a sobrevivir el reboot. Por si fuera poco, si esta cosa no enciende completamete por si sola, no tenemos idea de qué se necesita para volver a levantarlo. Debido a esto, todo el equipo esta listo para pasar el fin de semana entero en sitio.
+
+Deseame suerte, Ellen.
+"
+
++++
+
+Después de la tormenta:
+
+"Bueno, 72 horas después lo logramos. Apenas. Si Ellen no hubiera encontrado a la gente que administraba esta cosa hace cuatro años, no creo que lo hubieramos logrado. Qué habría pasado si ninguno de ellos siguiera con vida? ... Y Si no tuvieramos acceso a Google? 
+
+Como podemos hacer que esto no suceda otra vez? "
+
+---
+
+![](https://www.r1soft.com/hubfs/SBM_Images/Logos/PhoenixNAP-Global-Logo.png?t=1508856451440)
+
+Listo en 18 horas.
+
+Ahorro: 100 000 USD por lo menos. Sin contar devs/releases/deploys
+
+Notes:
 Sin contar a los developers que estan esperando dos meses a que les liberen algo, o la semana de deploy que debe hacer
+
+---
+
+## "El dinero es dinero"
+
+ - MC Dinero
 
 ---
 
@@ -225,6 +498,8 @@ Equivale a:
  - Mejores productos
  - Mejor Panorama.
 
+---
+
 # COMPETITIVIDAD. 
 
 ---
@@ -233,12 +508,13 @@ Equivale a:
 
 "Si tienes un desastre. Vas a tener un desastre automatizado."
 
+---
+
 Si no pueden ejecutar el proceso de manera manual y saber cada detalle de este proceso, no intenten automatizarlo.
+
 Solo lograrian automatizar confusion.
 
-
-Note:
-
+Notes:
 Esto es algo muy comun... leo.
 
 ---
@@ -271,6 +547,8 @@ Consistencia de la practica tiene que ir antes de la Automatizacon
 
 ---
 
+![](https://raw.githubusercontent.com/AAlvz/slides-arquitectura-automatizable/master/assets/QAs.png)
+
 1. Seguridad? ...
 
 1. Disponibilidad!
@@ -279,7 +557,89 @@ Consistencia de la practica tiene que ir antes de la Automatizacon
 
 1. Usabilidad
 
+1. Tecnologias!!
+
 ---
+
+Objetivo.
+
+Hacer más barato reconstruir la infraestructura que repararla.
+
+---
+
+![](http://i0.kym-cdn.com/photos/images/facebook/000/993/875/084.png)
+
+---
+
+Es decir.
+
+"Diseñar Builds. No construir el server."
+
+Para entregar siempre lo mejor a produccion.
+
+---
+
+Al reconstruir:
+
+  - Es un proceso automatizado. Toma una cantidad conocida de tiempo. Al contrario de reparar, que normalmente toma más de lo esperado.
+  - Contiene menos varianza en las configuraciones, al contraro de reparar cada que se rompe.
+  - Puede ser hecho por los menos expertos. El equipo Junior.
+  - Seniors se pueden enfocar en arreglar y la manera de mejorar builds, que arreglará otros problemas.
+
+Notes:
+De esta manera, al trabajar proactivamente en proyectos que reduzcan el trabajo no planeado, se va eliminando sistematicamente las diferentes fuentes de desastres antes de que ataquen.
+Todo esto reduce la complejidad y el costo, ademas de mejorar la administracion. 
+
+---
+
+Idealmente se logra cuando esto:
+
+![](http://cs5.pikabu.ru/post_img/2015/12/21/8/1450699452165687382.jpg)
+
+---
+
+Se arregla con:
+
+![](https://st.depositphotos.com/1072614/3887/i/950/depositphotos_38875977-stock-photo-finger-pushing-button-and-flushing.jpg)
+
+---
+
+Se arregla con:
+![](http://media.gettyimages.com/photos/father-hand-helps-child-hand-to-press-a-key-picture-id517491719)
+
+---
+Sin embargo,
+El exito depende ahora depende de:
+ - Habilidad de manejar los cambios
+
+Notes:
+cambios que sucedan en produccion con aquellos que tengamos registrados como nuevos para que no cambien radicalmente con aquellos que se reemplacen al hacer un reprovisionamiento. 
+
+---
+
+# Paso 0.
+
+Crear una libreria de Configuraciones para hacer builds repetibles.
+
+  - Guias de Mantenimiento
+  - Updates
+  - Infraestructura documentada y ejecutable
+
+---
+
+# Paso 1. Encontrar Artefactos Frágiles
+
+Encontrar sistema más critico y convertirlo en dorado:
+
+Que pase por **Planeacion**, **Testing** y **Aprovación** antes de producción.
+
+Notes:
+Aquel que toma mas tiempo de construir y de reparar.
+
+---
+
+
+
 
 # Recap
 
@@ -319,13 +679,6 @@ De esta manera, se trabaja en operaciones tempranas del ciclo de vida de desarro
 Asi, el principal rol del equipo de administracion de releases es construir los mecanismos para hacer el mejor deploy con las mejores configuraciones a produccion. Asi ellos no hacen los builds. Hacen Ingenieria de los builds. Es decir, los diseñan, pero no construyen el server.
 
 OBJETIVO: Que sea mas barato reconstruir la infraestructura que repararla. Al presionar un solo boton.
-
-Los siguientes beneficios son los mas importantes resultado de reconstruir en vez de reparar:
-
-  - Reconstruir es una tarea que tiene tiempos muy especificos, medibles y por lo tanto mejorables. En cambio reparar fallos, SIEMPRE tiene un tiempo impredecible y normalmente toma mas tiempo de lo que estimamos.
-  - Reconstruir infraestructura, implementa menos variabildad en la confuguracion, al contrario de lo que es un ciclo constante donde algo se rompe y se repara, lo que agrega mucha varianza en la configuracion y despues se vuelve complicado adentrarse.
-  - Al tener un proceso automatizado de reconstruccion, documentado y menos complicado, incluso puede ser hecho por los Juniors, liberando aun Senior de ese trabajo, enfocandose a algo de mayor importancia e incluso de lucha contra incendios.
-  - Al liberar a un senior (despues de arreglar fallos) pueden seguir trabajando en nuevos proyectos y sus builds, lo que arreglara otros problemas ligados.
 
 De esta manera, al trabajar proactivamente en proyectos que reduzcan el trabajo no  planeado, se va eliminando sistematicamente las diferentes fuentes de desastres antes de que ataquen.
 
