@@ -1,8 +1,8 @@
 ---
 
  ### Arquitectura Automatizable
- ### (@_aalvz)
  ### (GH: AgusRumayor)
+ ### (@_aalvz)
 
  <span style="color:gray">Tinkerware</span>
 
@@ -531,7 +531,7 @@ General Motors Case.
 ![](http://www.carlogos.org/logo/Toyota-logo-1989-2560x1440.png)
 ![](http://www.carlogos.org/logo/Nissan-symbol-2012-1920x1080.png)
 
-Note:
+Notes:
 Querian automatizar la manufactura de autos en 1980.
 GM intenta resolver sus problemas de calidad con automatizacion.
 Gastaron 44 Billones de dolares para construir la "fabrica del futuro".
@@ -564,6 +564,10 @@ Consistencia de la practica tiene que ir antes de la Automatizacon
 Objetivo.
 
 Hacer más barato reconstruir la infraestructura que repararla.
+
+---
+
+Priorizar en base al cliente
 
 ---
 
@@ -671,33 +675,44 @@ Dependencias
 
 # De Staging a Produccion.
 
-1. Verificar las herramientas de build.
-2. Software intermedio.
-3. Documentacion a la Libreria de Configuraciones
-3.5. QA.
-4. LOS DEVS NO SON PARTE DEL PROCESO DE BUILDS
-5. Aprovar y calendarizar deploy.
+  1. Verificar las herramientas de build.
+  2. Software intermedio.
+  3. Documentacion a la Libreria de Configuraciones
+  3.5. QA.
+  4. LOS DEVS NO SON PARTE DEL PROCESO DE BUILDS
+  5. Aprovar y calendarizar deploy.
 
 Notes:
 Por seguridad y para asegurar que el quipo de provisionamiento puede mantener todo
 
 ---
 
-Es facil automatizar?
+¿Es facil automatizar?
 
 ---
 
-Algunas herramientas y tips.
+# Algunas herramientas y tips.
 
 ---
 
-Testing:
+# REPOSITORIO:
+
+  - Git
+  - Mercurial
+  - Subversion
+
+---
+
+# Testing:
 
   - Selenium
+  - Gherkin
+  - Code Coverage
+  - Unit Testing
 
 ---
 
-CIs:
+# CIs:
   - Jenkins
   - Buildbot
   - TeamCity
@@ -706,14 +721,14 @@ CIs:
 
 ---
 
-Virtualizacion
+# Virtualizacion
 
  - VmWare
  - Vagrant
 
 ---
 
-Administradores de Configuracion
+# Administradores de Configuracion
 
  - Puppet
  - Chef
@@ -721,27 +736,30 @@ Administradores de Configuracion
 
 ---
 
-Infraestructura
+# Infraestructura y scripting
 
   - Terraform
+  - Python
+  - Perl
+  - Shell
 
 ---
 
-Contenerizacion
+# Contenerizacion
 
   - LXC
   - Docker
 
 ---
 
-Seguridad
+# Seguridad
 
  - Vault
  - Pure linux
 
 ---
 
-Monitoreo
+# Monitoreo
 
   - Monit
   - ELK
@@ -752,47 +770,45 @@ Monitoreo
 
 TinkerWare
 
+Automatizacion de Infraestructura (Arquitectura)
+
 ---
 
-# Recap
+En Resumen Debemos:
 
-En este punto;
-
- - Creamos un catalogo de servicios que documentan los servicios mas criticos que tenemos
- - Documentamos como trabajan esos servicios en la infraestructuras y qué componentes los mantienen
-
-Debemos:
-
+ - Despues de diseñar
+ - Crear un catalogo de servicios que documentan los servicios mas criticos que tenemos
+ - Documentamos como trabajan esos servicios y qué componentes los mantienen
  - Tener una base de datos de configuraciones para mapear los servicios y sus relaciones.
- - Tener metricas y herramientas PARA mejorar la toma de decisiones
- PARA incrementar la tasa de cambios existosos y PARA disminuir trabajo NO planeado.
- - Creamos una lista de proyectos prorizados PARA reemplazar artefactos fragiles con infraestructura estable.
- - Identificar artefctos frágiles con tasas bajas de exito después de cambios y que tengan un alto índice de MTTR (Media Time To Recover) ya que contribuyen al trabajo no planeado. Y todos ellos estan llenos de post its de ¨No tocar¨.
- - Ahora tenemos que crear builds repetibles, Focus en infra fragil.
-    - Definir mecanismos de builds
-    - Documentacion estable y actualizable
-    - Imagenes de sistema.
 
- De aqui resulta un proceso repetible para construir infraestructura desde cero.
++++
 
-Al hacer la infraestructura mas facil  de reconstruir y reparar atacamos varios puntos;
-  1. Si algo sale mal en produccion, no lo reparamos, en lugar de eso, nos quitamos el problema de encima y reprovisionamos desde cero. Sin embargo, en este punto, el exito depende completamente de nuestra habilidad de manejar los cambios que sucedan en produccion con aquellos que tengamos registrados como nuevos para que no cambien radicalmente con aquellos que se reemplacen al hacer un reprovisionamiento. 
+- Herramientas
+ - Priorizar
+ - Infra fragil vs Infra estable ("No tocar")
+ - Builds Repetibles
 
-- Tasas altas de server/admin
-- Baja cantidad de Trabajo No Planeado
-- Habilidad para mantener y administrar cambios en configuraciones. 
++++
+
+ - Administrar Cambios
+ - METRICAS
+ - METRICAS
+
+---
+
+# Metricas
+
+ - Tasa de cambios exitosos.
+ - Trabajo NO Planeado
+ - Tiempo medio de Reparacion
+ - Tiempo medio antes de Fallos
 
 
-Reemplazar Trabajo NO planeado por tareas previas 
+Notes:
+1.Para mejorar la toma de decisiones
+2.Saber reaccionar ante riesgos
+3.Trabajo NO planeado vs Tareas previas de builds
+4.De esta manera, al trabajar proactivamente en proyectos que reduzcan el trabajo no  planeado, se va eliminando sistematicamente las diferentes fuentes de desastres antes de que ataquen.
+5.Todo esto reduce la complejidad y el costo, ademas de mejorar la administracion.
 
-El punto es pover nuestro Senior IT Operations de una posicion reactiva y de lucha contra incendios a un rol proactivo de funciones de administracion de releases en donde trabajan constantemente en integrar los releases que van a ser entregados a produccion.
-
-De esta manera, se trabaja en operaciones tempranas del ciclo de vida de desarrollo, en donde el costo por errores es mucho mas bajo.
-
-Asi, el principal rol del equipo de administracion de releases es construir los mecanismos para hacer el mejor deploy con las mejores configuraciones a produccion. Asi ellos no hacen los builds. Hacen Ingenieria de los builds. Es decir, los diseñan, pero no construyen el server.
-
-OBJETIVO: Que sea mas barato reconstruir la infraestructura que repararla. Al presionar un solo boton.
-
-De esta manera, al trabajar proactivamente en proyectos que reduzcan el trabajo no  planeado, se va eliminando sistematicamente las diferentes fuentes de desastres antes de que ataquen.
-
-Todo esto reduce la complejidad y el costo, ademas de mejorar la administracion. 
+---
