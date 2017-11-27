@@ -196,13 +196,13 @@ POCO Trabajo no Planeado / Apagar incendios
 
 ## Organizaciones de alto desempeño
 
-# 5% de trabajo no planeado
+#### 5% de trabajo no planeado
 
 +++
 
-#  Organizaciones tipicas
+##  Organizaciones tipicas
 
-  35% - 45% trabajo no planeado.
+#  35% - 45% trabajo no planeado.
 
 Note:
 Casi el 50%!!
@@ -212,6 +212,8 @@ Se termina el dia, y resulta que no hiceron nada de lo que tenian planeado?
 ---
 
 ## Porque automatizar??
+
++++
 
 No podemos ser una organizacion con alto desempeño si no **Mejoramos**.
 
@@ -247,7 +249,7 @@ Se sabe con certeza qué falló?
 
 +++
 
-#NO SÉ
+# NO SÉ
 
 +++
 
@@ -402,7 +404,7 @@ Entonces: Fallas
 
 Que significa?
 
-![Kill all the humans}(https://memegenerator.net/img/instances/500x/50445790/kill-all-humans-for-a-better-tomorrow.jpg)
+![Kill all the humans](https://memegenerator.net/img/instances/500x/50445790/kill-all-humans-for-a-better-tomorrow.jpg)
 
 +++
 
