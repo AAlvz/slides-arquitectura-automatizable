@@ -129,14 +129,14 @@ El arquitecto like:
 
 ![](https://memegenerator.net/img/instances/500x/72565762/thank-you-goodbyeand-good-luck.jpg)
 
-Notes:
+Note:
 Y el arquitecto. Termina su trabajo y les desea suerte a los desarrolladores.
 
 +++
 
 Que hay que hacer?
 
-Notes:
+Note:
 Instalar todo. Y ya?
 Donde? Qué servidor se va a utilizar?
 Porqué nube? Porqué no?
@@ -150,7 +150,7 @@ Seguridad? ...
 
 Confiable?
 
-Notes:
+Note:
 Donde quedaron todos esos atributos que dejo' el arquitecto despues de estar derramando sangre y sudor para buscar lo mejor para todos?
 Tanto esfuerzo no puede ser desperdiciado!
 
@@ -160,7 +160,7 @@ Tanto esfuerzo no puede ser desperdiciado!
 
 ![](https://imgflip.com/s/meme/Am-I-The-Only-One-Around-Here.jpg)
 
-Notes:
+Note:
 Acaso Soy el unico aquí al que le importan los Atributos de calidad?
 
 ---
@@ -182,7 +182,7 @@ Cuales son?
   - Invertir tiempo en etapas tempranas del ciclo de vida del dpto de TI.
   - Integrar Operaciones y seguridad
 
-Notes:
+Note:
 Vamos a comenzar definiendo alunas caracteristicas de las empresas de gran performance de tecnologias.
 Si queremos ser los mejores, tenemos que parecernos y dejarnos guiar por los mejores
 
@@ -204,7 +204,7 @@ POCO Trabajo no Planeado / Apagar incendios
 
   35% - 45% trabajo no planeado.
 
-Notes:
+Note:
 Casi el 50%!!
 Cuantas veces les pasa que llegan a la oficina con la idea bien clara de lo que van a avanzar hoy.
 Se termina el dia, y resulta que no hiceron nada de lo que tenian planeado?
@@ -215,7 +215,7 @@ Se termina el dia, y resulta que no hiceron nada de lo que tenian planeado?
 
 No podemos ser una organizacion con alto desempeño si no **Mejoramos**.
 
-Notes:
+Note:
 Nos da competitividad, libertad. felicidad
 
 +++
@@ -226,7 +226,7 @@ No se puede mejorar lo que no se puede **Medir**.
 
 ![](https://media.aws.iaaf.org/media/LargeL/2b8b05c8-fa87-4935-9205-a9da3ce7863c.png?v=1926410597)
 
-Notes:
+Note:
 Somos como deportistas de Alto rendimiento.
 No salen a correr/nadar/jugar solo porque les gusta. Bueno si.
 Pero mejoran constantemente. No salen y corren y montan toda la infraestrucutra y dicen "Ay que bonito, cuando se rompa lo arreglo"
@@ -257,7 +257,7 @@ Ejecutar un script, una prueba o algo repetible toma una cantidad de tiempo Cono
 
 ![](http://www.bbc.co.uk/staticarchive/c21c9192413719396c6a491a7b9229315bde6fd4.jpg)
 
-Notes:
+Note:
 Debemos cuidar nuestras metricas como campeones y siempre romper nuestra propia marca.
 
 ---
@@ -266,7 +266,7 @@ Debemos cuidar nuestras metricas como campeones y siempre romper nuestra propia 
 
 ¿Como medir?
 
-Notes:
+Note:
 Entonces, De las metricas que ya vimos. Como las medimos? Como las mejoramos? 
 
 +++
@@ -277,7 +277,7 @@ Entonces, De las metricas que ya vimos. Como las medimos? Como las mejoramos?
     - Tiempo Promedio de Reparacion.
     - Tiempo Promedio Antes de Fallos
 
-Notes:
+Note:
 Explicar ambos
 
 +++
@@ -290,7 +290,7 @@ Explicar ambos
 
 ![](http://www.wellandtrulystuck.co.uk/wp-content/uploads/imported/Funny-Warning-Sign-Danger-Do-Not-Touch-Hurt-While-Dying-Sticker-Self-Adhesive-191776414570.jpg)
 
-Notes:
+Note:
 Cuantos Servidores tienen con letreros como estos?
 
 +++
@@ -300,7 +300,7 @@ Cuantos Servidores tienen con letreros como estos?
   - Medible en:
   Cantidad de recursos y personas enfocados actividades de Pre-Produccion, administracion de releases, testing...
 
-Notes:
+Note:
 Si pasamos mucho tiempo enfocados a arreglar errores en vez de a buscar mejoras, hay algo que estamos haciendo mal..
 
 +++
@@ -321,7 +321,7 @@ Si pasamos mucho tiempo enfocados a arreglar errores en vez de a buscar mejoras,
 
 3 Caracteristicas Principales en Organizaciones de alto desempeño:
 
-Notes: Al final todo se puede resumir en 3 caracteristicas principales para tener alto desempeño.
+Note: Al final todo se puede resumir en 3 caracteristicas principales para tener alto desempeño.
 
 +++
 
@@ -333,7 +333,7 @@ Notes: Al final todo se puede resumir en 3 caracteristicas principales para tene
 
 2. Cultura de Causalidad
 
-Notes:
+Note:
 Es decir. Que sucede cuando hay cambios
 
 +++
@@ -341,7 +341,7 @@ Es decir. Que sucede cuando hay cambios
 2. Cultura de Causalidad
     - 80% de fallos son debido a cambios.
 
-Notes:
+Note:
 Por errores humanos, problemas en el proceso.
 Y el 20% restante es debido a problemas de tecnologia y desastres
 
@@ -375,7 +375,7 @@ Gut Feeling
 
 ... Para alargar el tiempo de solución y tener tasas mas bajas de reparación rápida.
 
-Notes:
+Note:
 Lamento ser yo el que destruya sus sueños y esperanzas. Pero. "Seguir los instintos" no aplica aqui. No lo hagan
 
 +++
@@ -419,7 +419,7 @@ Sonríe a la vida!
 
 ![](http://www.quizony.com/are-you-ready-for-changes-in-your-life/imageForSharing.png)
 
-Notes:
+Note:
 Post it: ¨No Tocar¨
 
 +++
@@ -438,7 +438,7 @@ Motívate!
 
 "Automatizar no da valor directo a mis clientes o a mi empresa"
 
-Notes:
+Note:
 Boom. Golpe directo de realidad.
 Quien esta de acuerdo con esta frase? 
 
@@ -462,7 +462,7 @@ Tiempos de Entrega - 2555x
 
 Equivale a Un gran valor de Negocio que afecta directamente a los Clientes.
 
-Notes:
+Note:
 Es muuuy diferente si le dices cada semana al cliente "Ya para el proximo viernes vas a ver cambios".
 
 +++
@@ -521,7 +521,7 @@ Listo en 18 horas.
 
 Ahorro: 100 000 USD por lo menos. Sin contar devs/releases/deploys
 
-Notes:
+Note:
 Sin contar a los developers que estan esperando dos meses a que les liberen algo, o la semana de deploy que debe hacer
 
 +++
@@ -569,7 +569,7 @@ Si no pueden ejecutar el proceso de manera manual y saber cada detalle de este p
 
 Solo lograrian automatizar confusion.
 
-Notes:
+Note:
 Esto es algo muy comun... leo.
 
 +++
@@ -580,7 +580,7 @@ General Motors Case.
 - Automatizar Manufactura. 
 - Mejor Calidad. Mejores Costos.
 
-Notes:
+Note:
 Querian automatizar la manufactura de autos en 1980.
 GM intenta resolver sus problemas de calidad con automatizacion.
 
@@ -593,7 +593,7 @@ GM intenta resolver sus problemas de calidad con automatizacion.
 ![](http://www.carlogos.org/logo/Toyota-logo-1989-2560x1440.png)
 ![](http://www.carlogos.org/logo/Nissan-symbol-2012-1920x1080.png)
 
-Notes:
+Note:
 Gastaron 44 Billones de dolares para construir la "fabrica del futuro".
 Eso era suficiente para haber comprado Toyota. y Nissan. Juntos. (Sin obtener la calidad que buscaban. Ni los costos que buscaban).
 
@@ -646,7 +646,7 @@ Al reconstruir:
   - Puede ser hecho por los menos expertos. El equipo Junior.
   - Seniors se pueden enfocar en arreglar y la manera de mejorar builds, que arreglará otros problemas.
 
-Notes:
+Note:
 De esta manera, al trabajar proactivamente en proyectos que reduzcan el trabajo no planeado, se va eliminando sistematicamente las diferentes fuentes de desastres antes de que ataquen.
 Todo esto reduce la complejidad y el costo, ademas de mejorar la administracion. 
 
@@ -673,7 +673,7 @@ Sin embargo,
 El exito depende ahora depende de:
  - Habilidad de manejar los cambios
 
-Notes:
+Note:
 cambios que sucedan en produccion con aquellos que tengamos registrados como nuevos para que no cambien radicalmente con aquellos que se reemplacen al hacer un reprovisionamiento. 
 
 +++
@@ -694,7 +694,7 @@ Encontrar sistema más critico y convertirlo en dorado:
 
 Que pase por **Planeacion**, **Testing** y **Aprovación** antes de producción.
 
-Notes:
+Note:
 Aquel que toma mas tiempo de construir y de reparar.
 
 +++
@@ -710,7 +710,7 @@ Aquel que toma mas tiempo de construir y de reparar.
 
 # Paso 3. Crear lista de componentes reutilizables
 
-Notes:
+Note:
 Nginx?
 Solaris?
 Databases?
@@ -739,7 +739,7 @@ Dependencias
   4. LOS DEVS NO SON PARTE DEL PROCESO DE BUILDS
   5. Aprovar y calendarizar deploy.
 
-Notes:
+Note:
 Por seguridad y para asegurar que el quipo de provisionamiento puede mantener todo
 
 ---
@@ -842,7 +842,7 @@ Desarrollo vs Testing vs Produccion
 
 Desarrollo == Testing == Produccion
 
-Notes:
+Note:
 Nos hemos de encargado hacer fácil la administración de configuraciones
 
 ---
@@ -877,7 +877,7 @@ En Resumen Debemos:
  - Tiempo medio antes de Fallos
 
 
-Notes:
+Note:
 1.Para mejorar la toma de decisiones
 2.Saber reaccionar ante riesgos
 3.Trabajo NO planeado vs Tareas previas de builds
@@ -892,7 +892,7 @@ Importa Automatizar?
 
 "La herramienta mas poderosa que tenemos como desarolladores es la Automatizacion"
 
-Notes:
+Note:
 
 Trabajo repetible y monotono es para las máquinas
 Nosotros somos herramientas de creacion y de mejora
