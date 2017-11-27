@@ -412,7 +412,7 @@ Que significa?
 
    Charles Darwin.
 
-Notes;
+Note:
 Siempre hay modificaciones, parches, etc. Hay que saber adaptarnos. Listos para cambios!
 
 +++
