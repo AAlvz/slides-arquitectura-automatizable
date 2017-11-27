@@ -194,9 +194,9 @@ POCO Trabajo no Planeado / Apagar incendios
 
 +++
 
-# Organizaciones de alto desempeño
+## Organizaciones de alto desempeño
 
-  5% de trabajo no planeado
+# 5% de trabajo no planeado
 
 +++
 
