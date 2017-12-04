@@ -1,4 +1,5 @@
-logo: assets/logo.png
+background: assets/background.png
+background-size : cover
 slide-number: true
 footnote: "© 2017 TinkerWare."
 transition: zoom
